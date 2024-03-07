@@ -18,40 +18,42 @@ header{
     justify-content: center;
     background-color: cornflowerblue;
     color: rgba(233, 237, 247, 0.889) ;
-    padding: 12px;
-    font-size: 28px;
+    padding: 10px;
+    font-size: 22px;
 }
 .box{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin: 80px 50px;
 }
 .img img{
+   display: flexbox;
    float: left;
    width: 50%;
    height: auto;
-   margin:  0px 100px;
+   margin:  2rem;
    
 }
 .container h1{
-    padding: 10px;
-    font-size: 30px;
+    padding: 1.5rem;
+    font-size: 2rem;
     
 
 }
 .p1 {
-    font-size: 24px;
+    font-size: 1.5rem;
     display: flexbox;
     text-align: justify;
     line-height: 1.5;
-    margin: 0px 100px;
+    margin: 1.5rem;
 }
 .p2{
     display: inline-block;
-    font-size: 24px;
+    justify-content: center;
+    font-size: 1.5rem;
     text-align: justify;
     line-height: 1.5;
-    margin: 0px 100px;
+    margin: 2rem;
     padding: 20px 0px ;
 }
